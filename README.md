@@ -1,6 +1,6 @@
 # python-challenge
 
-### PyBank Instructions
+## PyBank Goal
 We create a Python script to analyze the financial records of a company with a financial dataset called budget_data.csv.
 The dataset is composed of two columns: 
 - "Date"
@@ -15,10 +15,15 @@ We create a Python script that analyzes and calculates each of the following val
 
 Finally, our script prints the analysis to the terminal and exports a text file with the results.
 
-Note:
+### Instructions:
 
+To access code for PyBank:
+- Open PyBank folder and use main.py file
 
-### PyPoll Instructions
+To view PyBank analysis:
+- Open budget_analysis.txt under "analysis" folder in the PyBank folder.
+
+## PyPoll Goal
 We modernize the vote-counting process of a small, rural town with a set of poll data called election_data.csv. 
 
 The dataset is composed of three columns:
@@ -35,6 +40,10 @@ Your task is to create a Python script that analyzes the votes and calculates ea
 
 Lastly, our script prints the analysis to the terminal and exports a text file with the results.
 
-Note:
+### Instructions:
 
-To access code open 
+To access code for PyPoll:
+- Open PyPoll folder and use main.py file
+
+To view PyPoll analysis:
+- Open electionResults.txt under "analysis" folder in the PyPoll folder.
