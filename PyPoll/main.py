@@ -18,7 +18,6 @@ with open(csv_path) as csvfile:
             candidate2_votes += 1
         if votes['Candidate'] == 'Raymon Anthony Doane': 
             candidate3_votes += 1
-
         #vote_count
         if candidate1_votes > candidate2_votes and candidate1_votes > candidate3_votes and candidate1_votes:
             winner = "Charles Casper Stockham"        
@@ -26,7 +25,7 @@ with open(csv_path) as csvfile:
             winner = "Diana DeGette"
         if candidate3_votes > candidate1_votes and candidate3_votes > candidate2_votes and candidate3_votes:
             winner = "Raymon Anthony Doane"
-
+    #calculations
     number_lines = csv_reader.line_num - 1
     total_votes = candidate1_votes + candidate2_votes + candidate3_votes
     candidate1_percent = (((candidate1_votes)/(total_votes))*100)
@@ -76,4 +75,3 @@ with open (txtFile_path, 'w') as txtFile: #askBCS helped me fix .txt output, did
     txtWriter.writerow([f"Winner: {winner}"])
     txtWriter.writerow([f" "])
     txtWriter.writerow([f"-------------------------"])
-    
