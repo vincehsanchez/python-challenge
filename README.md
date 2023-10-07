@@ -31,7 +31,7 @@ The dataset is composed of three columns:
 - "County"
 - "Candidate". 
 
-Your task is to create a Python script that analyzes the votes and calculates each of the following values:
+Our task is to create a Python script that analyzes the votes and calculates each of the following values:
 1. The total number of votes cast
 1. A complete list of candidates who received votes
 1. The percentage of votes each candidate won
